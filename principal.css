@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    display: flex;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 1500vw;
+    margin: 15px;
+    margin-right: 0;
+    padding: 5px 25lvw 5px 5px;
+    background-color: #dddddd;
+    border-radius: 10px;
+}
+
+.logo{
+    width: 20dvw;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background: #fafafa;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 5dvw;
+}
+.menu li a:hover{
+    background: rgb(221, 137, 137);
+}
+
+.botao-entrar {
+    margin: 1em;
+    background-color: rgb(212, 0, 0);
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+body{
+    background-color: #fafafa;
+}
