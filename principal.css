@@ -56,3 +56,13 @@ nav{
 body{
     background-color: #fafafa;
 }
+footer{
+    background-color: #dddddd;
+    border-radius: 10px;
+    height: 10em;
+
+     
+}
+footer ul li img{
+    width: 50px;
+}
