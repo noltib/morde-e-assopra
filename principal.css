@@ -75,3 +75,17 @@ footer ul{
 li{
     list-style-type: none
 }
+.login{
+    width: 40em;
+    min-height: 20em;
+    padding: 5em;
+    box-sizing: border-box; 
+    border-radius: 0.5em;
+    background-color: #dddddd;
+}
+main{
+    height: 85vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
