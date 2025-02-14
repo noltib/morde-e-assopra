@@ -7,15 +7,16 @@
 header {
     padding: 10px 0;
     display: flex;
+    max-width: 500vw;
+    justify-content: space-between;
+
 }
 
 nav{
     display: flex;
     align-items: center;
-    max-width: 1500vw;
-    margin: 15px;
-    margin-right: 0;
-    padding: 5px 25lvw 5px 5px;
+    width: 85%;
+    padding: 5px 20lvw 5px 5px;
     background-color: #dddddd;
     border-radius: 10px;
 }
@@ -44,11 +45,10 @@ nav{
 }
 
 .botao-entrar {
-    margin: 1em;
     background-color: rgb(212, 0, 0);
     color: white;
-    padding: 15px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 7px;
     text-decoration: none;
     font-weight: bold;
 
@@ -60,9 +60,18 @@ footer{
     background-color: #dddddd;
     border-radius: 10px;
     height: 10em;
-
+    display: flex;
+    justify-content: space-between;
+    
      
 }
 footer ul li img{
-    width: 50px;
+    width: 100px;
+}
+footer ul{
+    margin-top: 2em;
+    
+}
+li{
+    list-style-type: none
 }
