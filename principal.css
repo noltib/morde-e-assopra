@@ -5,7 +5,7 @@
 }
 
 header {
-    padding: 10px 0;
+    padding: 5px ;
     display: flex;
     max-width: 300vw;
     justify-content: space-between;
@@ -47,7 +47,7 @@ nav{
 .botao-entrar {
     background-color: rgb(212, 0, 0);
     color: white;
-    padding: 3vh 1vw;
+    padding: 1vw 1vw;
     border-radius: 7px;
     text-decoration: none;
     font-weight: bold;
@@ -62,14 +62,13 @@ footer{
     height: 10em;
     display: flex;
     justify-content: space-between;
-    
-     
+    margin-top: 10em;
 }
 footer ul li img{
     width: 100px;
 }
 footer ul{
-    margin-top: 2em;
+    margin: 2em;
     
 }
 li{
@@ -87,23 +86,33 @@ main{
     height: 85vh;
     justify-content: center; 
     align-items: center; 
-    text-align: center;
+    
 }
 .b_principal img{
-    width: 98vw;
+    width: 99vw;
     border-radius: 15px;
 }
-.pudim img{
-    width: 20vw;
+.top3 img{
+    width: 14em;
+    border-radius: 20px;
 }
 .comidas_i{
-    justify-content: center; 
+    
+    margin: 2em;
+    justify-content: space-between; 
     align-items: center; 
     text-align: center;
     display: flex;
 }
-.pudim{
+.top3{
     background-color: #dddddd;
-    padding: 3em;
-    width: 18vw;
+    padding: 1em;
+    width: 15em;
+    border-radius: 20px;
+    padding-inline: 10px;
+    
+}
+h2{
+    margin-top: 1em;
+    font-size: 2em;
 }
