@@ -7,7 +7,7 @@
 header {
     padding: 10px 0;
     display: flex;
-    max-width: 500vw;
+    max-width: 300vw;
     justify-content: space-between;
 
 }
@@ -16,7 +16,7 @@ nav{
     display: flex;
     align-items: center;
     width: 85%;
-    padding: 5px 20lvw 5px 5px;
+    padding: 5px 20vw 5px 5px;
     background-color: #dddddd;
     border-radius: 10px;
 }
@@ -37,7 +37,7 @@ nav{
     font-weight: bold;
     background: #fafafa;
     border-radius: 8px;
-    padding: 10px;
+    padding: 1vw;
     margin-left: 5dvw;
 }
 .menu li a:hover{
@@ -47,7 +47,7 @@ nav{
 .botao-entrar {
     background-color: rgb(212, 0, 0);
     color: white;
-    padding: 20px;
+    padding: 3vh 1vw;
     border-radius: 7px;
     text-decoration: none;
     font-weight: bold;
@@ -85,7 +85,25 @@ li{
 }
 main{
     height: 85vh;
-    display: flex;
     justify-content: center; 
     align-items: center; 
+    text-align: center;
+}
+.b_principal img{
+    width: 98vw;
+    border-radius: 15px;
+}
+.pudim img{
+    width: 20vw;
+}
+.comidas_i{
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    display: flex;
+}
+.pudim{
+    background-color: #dddddd;
+    padding: 3em;
+    width: 18vw;
 }
