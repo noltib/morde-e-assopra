@@ -74,14 +74,7 @@ footer ul{
 li{
     list-style-type: none
 }
-.login{
-    width: 40em;
-    min-height: 20em;
-    padding: 5em;
-    box-sizing: border-box; 
-    border-radius: 0.5em;
-    background-color: #dddddd;
-}
+
 main{
     height: 85vh;
     justify-content: center; 
@@ -115,4 +108,37 @@ main{
 h2{
     margin-top: 1em;
     font-size: 2em;
+}
+.login{
+    width: 40em;
+    min-height: 20em;
+    padding: 5em;
+    box-sizing: border-box; 
+    border-radius: 0.5em;
+    background-color: #dddddd;
+}
+input[type="text"]{
+    padding: 10px;
+    width: 28em;
+    border-radius: 7px;
+    border: solid, 1px;
+}
+input[type="submit"]{
+    padding: 12px;
+    width: 8em;
+}
+input{
+    border-radius: 7px;
+    border: solid, 1px;
+    background-color: #fafafa;
+    font-size: 1em;
+}
+input{
+    margin-bottom: 2em;
+}
+.form{
+    display: flex;
+}
+label{
+    font-size: 1em;
 }
