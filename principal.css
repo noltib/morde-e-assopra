@@ -101,7 +101,7 @@ nav {
     opacity: 0;
     max-height: 0;
     overflow: hidden;
-    transition: opacity 0.4s ease, max-height 0.4s ease;
+    transition: opacity 0.7s ease, max-height 0.7s ease;
 }
 
 .top3 .descricao.ativo {
@@ -178,7 +178,4 @@ input {
 
 label {
     font-size: 1em;
-}
-.comidas{
-    
 }
