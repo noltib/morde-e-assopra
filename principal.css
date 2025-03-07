@@ -73,7 +73,7 @@ nav {
     display: flex;
 }
 
-.top3 {
+.comida {
     background-color: #dddddd;
     padding: 1em;
     width: 15em;
@@ -81,12 +81,12 @@ nav {
     padding-inline: 10px;
 }
 
-.top3 img {
+.comida img {
     width: 14em;
     border-radius: 20px;
 }
 
-.top3 {
+.comida {
     background-color: #dddddd;
     padding: 1em;
     width: 15em;
